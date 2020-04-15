@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.16)
 project(untitled1)
 
 set(CMAKE_CXX_STANDARD  17)
-add_executable(untitled1 main.cpp Star.cpp Star.h)
+add_executable(untitled1 main.cpp Star.cpp Star.h Line.cpp Line.h Point.cpp Point.h Triangle.cpp Triangle.h Circle.cpp Circle.h Rectangle.cpp Rectangle.h Ellipse.cpp Ellipse.h)
 find_package(SFML 2.5 COMPONENTS graphics audio REQUIRED)
 find_package(OpenGL REQUIRED)
 find_package(GLUT REQUIRED)

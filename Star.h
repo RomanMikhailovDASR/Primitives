@@ -37,7 +37,7 @@ public:
 
     void change_size(double a); // изменить размеры (а>1 - увеличение, a<1 - уменьшение)
 
-    void change_color_star(double red, double green, double blue); // изменить цвет
+    void change_star_color(double red, double green, double blue); // изменить цвет
 
     void set_transparency(double transparency); // изменить прозрачность
 

@@ -94,7 +94,7 @@ void Star::change_size(double a) {
     radius *= a;
 };
 
-void Star::change_color_star(double red, double green, double blue) {
+void Star::change_star_color(double red, double green, double blue) {
     this->red = red;
     this->green = green;
     this->blue = blue;
